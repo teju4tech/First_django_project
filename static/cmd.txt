@@ -1,0 +1,35 @@
+1) creating an Enviromet for project
+   : - [python -m venv (name)]
+
+2)Start Enviromet
+  :-[.\env\Scripts\Activate]
+
+3)Solving problem of Scripts Powershell
+
+4)Inside Enviromet insatlling django
+  :-[pip install django]
+
+5)check install
+  :-[python -m django --version]
+
+6)Creating project using django 
+  :-[django-admin startproject (name)]
+
+7)checking files
+  :-[ls]
+
+8)Run server
+ :-[python manage.py runserver]
+
+9)Creating app using django
+ :-[python manage.py startapp (name)]
+
+
+ DJANGO MODELS: django models are help to create databases.
+                means we can stored web data at our databse.
+
+
+Now we have create db for app
+cammand: [python manage.py makemigrations]
+cammand: [python manage.py migrate]
+cammand: [python manage.py createsuperuser]
