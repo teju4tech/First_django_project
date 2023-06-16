@@ -16,7 +16,7 @@
 
 | Parameter | Type     | Description                |
 | :---- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `Ref_key` | `string` | **Required**. Your Reference key |
 
 #### Get item
 
@@ -28,7 +28,19 @@
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
+#### add(a, b)
 
 Takes two numbers and returns the sum.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express
 
